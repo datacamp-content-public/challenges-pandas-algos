@@ -12,11 +12,16 @@ key: d0b64cb12d
 ```
 
 `@context`
-Contexto...
+Context...
 
 `@code1`
 ```{python}
 df.sample(frac=1).drop_duplicates('customer_id')
+```
+
+`@code2`
+```{python}
+df.sample(frac=1).drop_duplicates('order_number')
 ```
 
 `@pre_challenge_code`
